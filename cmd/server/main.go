@@ -23,7 +23,7 @@ func main() {
 	}
 	defer store.Close()
 
-translatorClient := translate.NewClient()
+translatorClient := translate.NewTranslatorClient("", "")
 
 	r := gin.Default()
 	r.Use(cors.Default())
