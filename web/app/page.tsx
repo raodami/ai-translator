@@ -1,13 +1,12 @@
 'use client';
 import { useState, useEffect } from 'react';
 import {
-  LanguagesIcon,
+  LanguageIcon,
   ArrowsRightLeftIcon,
   ClipboardIcon,
   ClockIcon,
   StarIcon,
   TrashIcon,
-  ChevronDownIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
@@ -103,7 +102,7 @@ export default function Home() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-4 flex items-center justify-center gap-3">
-            <LanguagesIcon className="w-12 h-12 text-blue-400" />
+            <LanguageIcon className="w-12 h-12 text-blue-400" />
             AI Translator
           </h1>
           <p className="text-xl text-blue-200">智能翻译 · 多语言互译 · 术语管理</p>
